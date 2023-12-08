@@ -1,7 +1,7 @@
 xray:
-  enabled: true
+  enabled: false
 insight:
-  enabled: true
+  enabled: false
 distribution:
   enabled: false
 pipelines:
