@@ -21,7 +21,7 @@ jfrog-platform:
     ingress:
       enabled: true
       hosts:
-        - artifactory.kosukeamano.com
+        - artifactory-dev.kosukeamano.com
       annotations: 
         kubernetes.io/ingress.class: "nginx"
     
