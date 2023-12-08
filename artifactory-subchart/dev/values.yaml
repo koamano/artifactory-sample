@@ -1,0 +1,8 @@
+xray:
+  enabled: true
+insight:
+  enabled: true
+distribution:
+  enabled: false
+pipelines:
+  enabled: false
