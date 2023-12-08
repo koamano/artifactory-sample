@@ -1,8 +1,14 @@
 xray:
   enabled: false
+## This Rabbitmq is used by Xray and Pipelines only, set rabbitmq.enabled: false, when Xray or Pipelines is not enabled
+rabbitmq:
+  enabled: false
 insight:
   enabled: false
 distribution:
   enabled: false
 pipelines:
   enabled: false
+## This Redis is used by pipelines only, set redis.enabled: false, when pipelines is not enabled
+redis:
+  enabled: true
